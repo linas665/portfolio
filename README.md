@@ -7,8 +7,7 @@
 
 ## 🚀 About Me  
 - 🌱 Learning **MongoDB | Express | React | Node.js **  
-- 🎯 Goal: To become a **Full-Stack Developer**  
-- ⚡ Fun fact: I love solving coding problems while sipping coffee ☕  
+- 🎯 Goal: To become a **Full-Stack Developer**    
   
 ---
 
