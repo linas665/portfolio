@@ -152,11 +152,7 @@ gap: 50px;
     top: 16.5%;
     left: 2%;
 }
-.html #html-logo{
-    height: 17%;
-    padding: 10%;
-}
-.css #css-logo{
+#html-logo,#css-logo{
     height: 17%;
     padding: 10%;
 }
