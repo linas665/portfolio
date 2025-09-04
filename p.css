@@ -82,16 +82,9 @@ display: flex;
 width: 100%;
 height: 100px;
 justify-content: center;
-gap: 50px;
-  
+gap: 50px; 
 }
-.socials #linkedin{
-    height: 4vh;
-}
-.socials #git{
-    height: 4vh;
-}
-.socials #insta{
+#linkedin,#git,#insta{
     height: 4vh;
 }
 
