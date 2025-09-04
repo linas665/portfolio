@@ -126,20 +126,12 @@ gap: 50px;
     top: 10%; 
      transition: all 0.3s ease;
 }
-.skills-container .c:hover{
+.c:hover,
+.html:hover,
+.css:hover{
       background-color: rgb(106 103 120 / 24%); 
       transform: scale(1.1);      
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2); /*  */
-}
-.skills-container .html:hover{
-      background-color: rgb(106 103 120 / 24%); 
-      transform: scale(1.1);      
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
-}
-.skills-container .css:hover{
-      background-color: rgb(106 103 120 / 24%); 
-      transform: scale(1.1);      
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 .c #c-logo{
     height: 18%;
