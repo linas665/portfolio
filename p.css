@@ -160,14 +160,7 @@ gap: 50px;
     height: 17%;
     padding: 10%;
 }
-/* .html #html-logo{
-    height: 17%;
-    padding: 10%;
-}
-.css #css-logo{
-    height: 17%;
-    padding: 10%;
-} */
+
 .skills-container p{
     color: aliceblue;
     font-family: 'KoHo';
@@ -370,24 +363,3 @@ gap: 50px;
     color: aliceblue;
     border-color: #be1ceb;
 }
-
-
-
-
-
-
-
-
-
-/* .skills-container .html{
-    background-color: brown;
-    width: 25%;
-    height: 75%;
-    border-radius: 18%;
-}
-.skills-container .css{
-    background-color: chartreuse;
-    width: 25%;
-    height: 75%;
-    border-radius: 18%;
-} */
