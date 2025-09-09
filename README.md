@@ -16,7 +16,8 @@ Built with **HTML**, **CSS**, and **C**. Currently learning the **MERN Stack** t
 - About Me section
 - Skills section
 - Projects showcase  
-- Contact details  
+- Contact details
+  
 
 ## 📬 Connect with Me
 
