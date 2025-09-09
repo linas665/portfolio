@@ -29,9 +29,10 @@
     font-size: large;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
+    transition: all 0.4s ease;
 }
 .navbar a:hover{
-    text-decoration: overline;
+    transform: scale(1.1);
 }
 
 .intro-text{
@@ -88,8 +89,13 @@ gap: 50px;
 
 #linkedin,#git,#insta{
     height: 4vh;
+    transition: all 0.3s ease;
 }
-
+#linkedin:hover,
+#git:hover,
+#insta:hover {
+   transform: scale(1.1);
+}
 
 /*  skills page  */
 
