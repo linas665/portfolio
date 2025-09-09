@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     scroll-behavior: smooth;
 }
 
-.container{
+.container {
     background-color: aqua;
     height: 400vh;
     display: flex;
@@ -13,52 +13,59 @@
 
 /*  home page */
 
-#home-page{
-    background-color:rgb(52 52 52); 
+#home-page {
+    background-color: rgb(52 52 52);
     height: 100vh;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: center;
     gap: 80px;
     padding: 1.5%;
     left: 33%;
 }
-.navbar a{
+
+.navbar a {
     color: aliceblue;
     font-size: large;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
-}
-.navbar a:hover{
-    text-decoration: overline;
+    transition: all 0.4s ease;
 }
 
-.intro-text{
+.navbar a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
     display: flex;
     height: 30%;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-   
+
 }
 
-.intro-text h1{
+.intro-text h1 {
     font-size: 16vh;
     font-family: 'Mochiy Pop One', sans-serif;
     color: aliceblue;
 }
-.intro-text2{
-  display: flex;
-  height: 10cap;
-  justify-content: center;
-  align-items: center;
+
+.intro-text2 {
+    display: flex;
+    height: 10cap;
+    justify-content: center;
+    align-items: center;
 }
-.intro-text2 h2{
+
+.intro-text2 h2 {
     font-size: 8vh;
     font-family: 'Baumans', sans-serif;
     color: rgb(154, 215, 200);
 }
-.intro-text3{
+
+.intro-text3 {
     color: rgb(255, 255, 255);
     height: 15%;
     padding-left: 25%;
@@ -69,51 +76,67 @@
     font-weight: 500;
     font-size: 90%;
 }
-.end-dot{
+
+.end-dot {
     display: flex;
     justify-content: center;
 }
-.end-dot img{
+
+.end-dot img {
     width: 7%;
 }
-.socials{
-    
-display: flex;
-width: 100%;
-height: 100px;
-justify-content: center;
-gap: 50px;
-  
+
+.socials {
+
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    gap: 50px;
+
 }
 
-#linkedin,#git,#insta{
+#linkedin,
+#git,
+#insta {
     height: 4vh;
+    transition: all 0.3s ease;
 }
 
+
+#linkedin:hover,
+#git:hover,
+#insta:hover {
+   transform: scale(1.1);
+}
 
 /*  skills page  */
 
 
-#skills-page{
-    background-color:rgb(52 52 52); 
+#skills-page {
+    background-color: rgb(52 52 52);
     height: 100vh;
 }
-.skills-heading{
+
+.skills-heading {
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.skills-heading h1{
+
+.skills-heading h1 {
     font-family: 'Familjen Grotesk';
     font-size: xx-large;
     color: aliceblue;
 }
-.skills-heading img{
+
+.skills-heading img {
     height: 2.5vh;
 }
-.skills-container{
+
+.skills-container {
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -121,54 +144,57 @@ gap: 50px;
     text-align: center;
     gap: 90px;
 }
-.skills-container .c ,.html, .css{
+
+.skills-container .c,
+.html,
+.css {
     background-color: rgb(106 103 120 / 24%);
     max-width: 25%;
     max-height: 70%;
     border-radius: 18%;
     position: relative;
-    top: 10%; 
-     transition: all 0.3s ease;
+    top: 10%;
+    transition: all 0.3s ease;
 }
+
 .c:hover,
 .html:hover,
-.css:hover{
-      background-color: rgb(106 103 120 / 24%); 
-      transform: scale(1.1);      
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+.css:hover {
+    background-color: rgb(106 103 120 / 24%);
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-.c #c-logo{
+
+.c #c-logo {
     height: 18%;
     padding: 10%;
 }
-.end-dot-blue{
+
+.end-dot-blue {
     display: flex;
     justify-content: center;
     position: relative;
     top: 20%;
     height: 25%;
 }
-.html .end-dot-blue{
+
+.html .end-dot-blue {
     top: 25.5%;
 }
-.css .end-dot-blue{
+
+.css .end-dot-blue {
     display: flex;
     top: 16.5%;
     left: 2%;
 }
-#html-logo,#css-logo{
+
+#html-logo,
+#css-logo {
     height: 17%;
     padding: 10%;
 }
-/* .html #html-logo{
-    height: 17%;
-    padding: 10%;
-}
-.css #css-logo{
-    height: 17%;
-    padding: 10%;
-} */
-.skills-container p{
+
+.skills-container p {
     color: aliceblue;
     font-family: 'KoHo';
     font-size: 2.2vh;
@@ -178,44 +204,51 @@ gap: 50px;
 
 /*  projects page */
 
-#projects-page{
+#projects-page {
     height: 100vh;
-    background-color:rgb(52 52 52); 
+    background-color: rgb(52 52 52);
 }
-.projects-page-heading{
+
+.projects-page-heading {
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.projects-page-heading h1{
+
+.projects-page-heading h1 {
     font-family: 'Familjen Grotesk';
     font-size: xx-large;
     color: aliceblue;
 }
-.projects-page-heading img{
+
+.projects-page-heading img {
     height: 2.5vh;
 }
-.projects-page-heading2{
+
+.projects-page-heading2 {
     height: 10%;
     display: flex;
     align-items: center;
 }
-.projects-page-heading2 p{
+
+.projects-page-heading2 p {
     color: aliceblue;
     font-family: 'Familjen Grotesk';
     text-align: center;
     font-size: larger;
 }
-.project-img{
-    
+
+.project-img {
+
     height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.project-img img{
+
+.project-img img {
     height: 90%;
     border-radius: 1%;
 
@@ -223,34 +256,37 @@ gap: 50px;
 
 /*  Contact page  */
 
-#contact-page{
+#contact-page {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    background-color:rgb(52 52 52); 
+    background-color: rgb(52 52 52);
 }
-.contact-page-one{
+
+.contact-page-one {
     width: 50%;
     height: 80%;
 }
 
-.contact-page-intro img{
+.contact-page-intro img {
     height: 3vh;
     position: relative;
     top: 15.5vh;
     left: 10%;
 }
-.contact-page-intro h1{
-  position: relative;
-  left: 15%;
-  top: 10vh;
-  font-size: 5vh;
-  font-family: 'Familjen Grotesk';
-  color: aliceblue;
+
+.contact-page-intro h1 {
+    position: relative;
+    left: 15%;
+    top: 10vh;
+    font-size: 5vh;
+    font-family: 'Familjen Grotesk';
+    color: aliceblue;
 }
-.contact-page-intro p{
+
+.contact-page-intro p {
     position: relative;
     left: 10%;
     top: 15vh;
@@ -259,27 +295,31 @@ gap: 50px;
     font-family: 'Inter';
     color: aliceblue;
 }
-.contact-page-intro #phone{
+
+.contact-page-intro #phone {
     height: 4vh;
     top: 28vh;
     left: 15%;
 }
-.contact-page-intro #email-logo{
+
+.contact-page-intro #email-logo {
     height: 3vh;
     top: 37vh;
     left: 10.5%;
 }
-.contact-page-intro .email-link{
+
+.contact-page-intro .email-link {
     text-decoration: none;
     color: aliceblue;
     position: relative;
     top: 33.6vh;
     display: flex;
-    left:24vh;
+    left: 24vh;
     width: fit-content;
     font-family: 'Inter';
 }
-.contact-page-intro .phone-no{
+
+.contact-page-intro .phone-no {
     text-decoration: none;
     color: aliceblue;
     position: relative;
@@ -287,7 +327,8 @@ gap: 50px;
     left: 15%;
     font-family: 'Inter';
 }
-.contact-page-two{
+
+.contact-page-two {
     width: 50%;
     height: 80%;
     display: flex;
@@ -295,19 +336,21 @@ gap: 50px;
     align-items: center;
 }
 
-.contact-form-container{
-    background-color:#525252;;
+.contact-form-container {
+    background-color: #525252;
     height: 90%;
     width: 90%;
     padding: 20px;
     border-radius: 30px;
 }
-.form input:focus{
+
+.form input:focus {
     caret-color: aliceblue;
     color: aliceblue;
     font-size: large;
 }
-.form .form-text{
+
+.form .form-text {
     color: aliceblue;
     font-family: 'Inter';
     position: relative;
@@ -315,25 +358,27 @@ gap: 50px;
     top: 2vh;
     font-size: 3.2vh;
 }
-.form #name-box{
+
+.form #name-box {
     position: relative;
-    background-color:#525252;
+    background-color: #525252;
     top: 5vh;
-    left:5%;
-    width:90%;
+    left: 5%;
+    width: 90%;
     padding: 10px;
     box-sizing: border-box;
-    height:5%;
+    height: 5%;
     border: none;
     outline: none;
     border-bottom: 2px solid aliceblue;
 }
-.form #email-box{
+
+.form #email-box {
     position: relative;
-    background-color:#525252;;
+    background-color: #525252;
     top: 17vh;
-    left:5%;
-    width:90%;
+    left: 5%;
+    width: 90%;
     height: 40px;
     display: inline-block;
     box-sizing: content-box;
@@ -342,52 +387,32 @@ gap: 50px;
     border-bottom: 2px solid aliceblue;
 }
 
-.form #message-box{
+.form #message-box {
     position: relative;
-    background-color:#525252;;
+    background-color: #525252;
     top: 30vh;
-    left:5%;
-    width:90%;
+    left: 5%;
+    width: 90%;
     display: inline-block;
     box-sizing: content-box;
     border: none;
     outline: none;
     border-bottom: 2px solid aliceblue;
 }
-#message-box:focus{
+
+#message-box:focus {
     caret-color: aliceblue;
     color: aliceblue;
 }
 
-.form #submit-btn{
+.form #submit-btn {
     width: 20%;
     height: 50px;
     position: relative;
     top: 250px;
     left: 5%;
-    border-radius: 70px;   
-    background-color:#be1ceb;
+    border-radius: 70px;
+    background-color: #be1ceb;
     color: aliceblue;
     border-color: #be1ceb;
 }
-
-
-
-
-
-
-
-
-
-/* .skills-container .html{
-    background-color: brown;
-    width: 25%;
-    height: 75%;
-    border-radius: 18%;
-}
-.skills-container .css{
-    background-color: chartreuse;
-    width: 25%;
-    height: 75%;
-    border-radius: 18%;
-} */
