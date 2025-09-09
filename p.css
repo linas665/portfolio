@@ -109,6 +109,12 @@
    transform: scale(1.1);
 }
 
+#linkedin:hover,
+#git:hover,
+#insta:hover {
+   transform: scale(1.1);
+}
+
 /*  skills page  */
 
 
@@ -192,15 +198,8 @@
     height: 17%;
     padding: 10%;
 }
-/* .html #html-logo{
-    height: 17%;
-    padding: 10%;
-}
-.css #css-logo{
-    height: 17%;
-    padding: 10%;
-} */
-.skills-container p{
+
+.skills-container p {
     color: aliceblue;
     font-family: 'KoHo';
     font-size: 2.2vh;
