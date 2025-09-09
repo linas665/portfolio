@@ -85,17 +85,14 @@ justify-content: center;
 gap: 50px;
   
 }
-.socials #linkedin{
-    height: 4vh;
-}
-.socials #git{
-    height: 4vh;
-}
-.socials #insta{
+
+#linkedin,#git,#insta{
     height: 4vh;
 }
 
+
 /*  skills page  */
+
 
 #skills-page{
     background-color:rgb(52 52 52); 
@@ -133,20 +130,12 @@ gap: 50px;
     top: 10%; 
      transition: all 0.3s ease;
 }
-.skills-container .c:hover{
+.c:hover,
+.html:hover,
+.css:hover{
       background-color: rgb(106 103 120 / 24%); 
       transform: scale(1.1);      
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2); /*  */
-}
-.skills-container .html:hover{
-      background-color: rgb(106 103 120 / 24%); 
-      transform: scale(1.1);      
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
-}
-.skills-container .css:hover{
-      background-color: rgb(106 103 120 / 24%); 
-      transform: scale(1.1);      
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 .c #c-logo{
     height: 18%;
@@ -167,14 +156,18 @@ gap: 50px;
     top: 16.5%;
     left: 2%;
 }
-.html #html-logo{
+#html-logo,#css-logo{
+    height: 17%;
+    padding: 10%;
+}
+/* .html #html-logo{
     height: 17%;
     padding: 10%;
 }
 .css #css-logo{
     height: 17%;
     padding: 10%;
-}
+} */
 .skills-container p{
     color: aliceblue;
     font-family: 'KoHo';
