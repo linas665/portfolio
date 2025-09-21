@@ -332,24 +332,25 @@ color: aliceblue;
     border-radius: 10%;
 }
 .contact-grid{
+    margin-left: 7%;
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 8%;
     min-height: 100vh;
-    gap: 15em;
+    gap: 5em;
     max-width: 80%;
 }
 @media (max-width:900px) {
     .contact-grid{
         max-width: 100%;
         gap: 1em;
+        margin-right: 20px;
     }
     .contact-text{
         grid-area: 1 / 1 / 2 / 3;
     }
     .contact-form{
         grid-area: 2 / 1 / 3 / 3;
-        gap: 20px;
     }
 }
 .contact-text img{
