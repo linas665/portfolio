@@ -6,7 +6,7 @@
 
 .container{
     width: 100%;
-    max-width: 100em;
+    max-width: 100%;
     min-height: 100vh;
     height: auto;
     position: relative;
@@ -311,7 +311,7 @@ color: aliceblue;
     font-family: 'Familjen Grotesk';
 }
 
-@media (max-width:560px) {
+@media (max-width:1200px) {
     .project-image img{
         height: 30vh;
     }
@@ -323,6 +323,7 @@ color: aliceblue;
     min-height: 100vh;
     height: auto;
     background-color: rgb(52 52 52);
+    width: 100%;
 }
 
 
@@ -332,19 +333,20 @@ color: aliceblue;
     border-radius: 10%;
 }
 .contact-grid{
-    margin-left: 7%;
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 8%;
     min-height: 100vh;
     gap: 5em;
     max-width: 80%;
+    margin-left: 3%;
 }
-@media (max-width:900px) {
+@media (max-width:1200px) {
     .contact-grid{
         max-width: 100%;
         gap: 1em;
         margin-right: 20px;
+        min-height: 70vh;
     }
     .contact-text{
         grid-area: 1 / 1 / 2 / 3;
@@ -452,6 +454,9 @@ textarea{
     border-bottom: 2px solid aliceblue;
     background-color: #626161;
     outline: none;
+}
+button{
+    color: aliceblue;
 }
 
 
